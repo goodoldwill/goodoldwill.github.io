@@ -1,0 +1,93 @@
+
+@import "normalise";
+@import "media-query-helpers";
+@import "shims";
+@import "css3";
+@import "colours";
+@import "typography";
+@import "links";
+@import "buttons";
+@import "homepage";
+
+@mediascreenand(max‐width:480px){ body{
+	￼￼font‐size:18px; }
+}
+
+body {
+	font-family:'fugueregular';
+	word-spacing: 0;
+	background: $background;
+	margin: 2rem auto;
+	padding: 15px;
+	max-width: 1160px;
+}
+
+h1 {
+	display: block;
+	width: 100%;
+	height: auto;
+	background: $background;
+	border-color: $background;
+}
+
+.about {
+	display: block;
+	height: auto;
+	background: $background;
+	border-color: $background;
+	border-style: solid;
+	margin: auto;
+	width: 100%;
+	padding-bottom: 3rem;
+}
+
+h2 {
+	padding-top: 5px;
+}
+
+h3{
+	border-top: 0.1rem solid #000;
+
+}
+
+img {
+
+	float: left;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.portfolio-item{
+	padding-bottom: 1rem;
+}
+
+#footer {
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 54px;
+	letter-spacing: -1px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	width: 100%;
+
+}
+
+.undered {
+	border-bottom: 0.3rem solid #000;
+	line-height: 1.65em;
+}
+
+.heading-2 {
+	font-size: -webkit-xxx-large;
+	letter-spacing: 0.2rem;
+}
+
+.main{
+	margin: 0 25px;
+	max-width: 1160px;
+}
+
+
+
+
