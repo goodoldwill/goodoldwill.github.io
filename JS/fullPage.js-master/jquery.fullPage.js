@@ -834,8 +834,8 @@
 
 			// If continuousVertical && we need to wrap around
 			if (options.autoScrolling && options.continuousVertical && typeof (v.isMovementUp) !== "undefined" &&
-				((!v.isMovementUp && v.yMovement == 'up') || // Intending to scroll down but about to go up or
-				(v.isMovementUp && v.yMovement == 'down'))) { // intending to scroll up but about to go down
+				((!v.isMovementUp && v.yMovement == 'up') || // Intending to scroll down but wrapper to go up or
+				(v.isMovementUp && v.yMovement == 'down'))) { // intending to scroll up but wrapper to go down
 
 				v = createInfiniteSections(v);
 			}

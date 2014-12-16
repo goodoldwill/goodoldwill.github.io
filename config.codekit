@@ -3,7 +3,7 @@
 "creatorBuild": "18270",
 "files": {
 	"\/css\/_buttons.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -19,7 +19,7 @@
 		"useLibsass": 0
 		},
 	"\/css\/_colours.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -35,7 +35,7 @@
 		"useLibsass": 0
 		},
 	"\/css\/_css3.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -51,7 +51,7 @@
 		"useLibsass": 0
 		},
 	"\/css\/_homepage.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -67,7 +67,7 @@
 		"useLibsass": 0
 		},
 	"\/css\/_links.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -83,7 +83,7 @@
 		"useLibsass": 0
 		},
 	"\/css\/_media-query-helpers.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -99,7 +99,7 @@
 		"useLibsass": 0
 		},
 	"\/css\/_normalise.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -115,7 +115,7 @@
 		"useLibsass": 0
 		},
 	"\/css\/_shims.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -131,7 +131,7 @@
 		"useLibsass": 0
 		},
 	"\/css\/_typography.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -156,7 +156,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/main.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -644,6 +644,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Images\/hackaball\/creds_may2013\/creds_may2013.001.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 634869,
+		"inputAbbreviatedPath": "\/Images\/hackaball\/creds_may2013\/creds_may2013.001.jpg",
+		"outputAbbreviatedPath": "\/Images\/hackaball\/creds_may2013\/creds_may2013.001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/hackaball\/here.012.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -736,7 +747,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.59990e+06,
+		"initialSize": 1.5999e+06,
 		"inputAbbreviatedPath": "\/Images\/hackaball\/Others.008.png",
 		"outputAbbreviatedPath": "\/Images\/hackaball\/Others.008.png",
 		"outputPathIsOutsideProject": 0,
@@ -1247,6 +1258,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/JS\/fullPage.js-master\/min\/jquery.fullPage-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/JS\/fullPage.js-master\/min\/jquery.fullPage-min.js",
+		"outputAbbreviatedPath": "\/JS\/fullPage.js-master\/min\/min\/jquery.fullPage-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/JS\/fullPage.js-master\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -1531,12 +1553,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/JS\/nav.js": {
+	"\/JS\/min\/nav-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/JS\/nav.js",
-		"outputAbbreviatedPath": "\/JS\/min\/nav-min.js",
+		"inputAbbreviatedPath": "\/JS\/min\/nav-min.js",
+		"outputAbbreviatedPath": "\/JS\/min\/min\/nav-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1552,6 +1574,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/portfolio\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/portfolio\/composed.html": {
 		"fileType": 8192,

@@ -1,9 +1,49 @@
+.button{
+font-family: inherit;
+-webkit-transition: all 0s;
+-moz-transition: all 0s;
+-ms-transition: all 0s;
+-o-transition: all 0s;
+transition: all 0.5s;
+width: 140px;
+display: inherit;
+margin-bottom: 2.2em;
+position: relative;
+text-align: center;
+z-index: 20;
+white-space: nowrap;
+line-height: 1em;
+color: black;
+background: transparent;
+border: 3px solid black !important;
+padding: 5px 0px 5px 0px;
+font-size: smaller;
+}
 
-// From _buttons.scss from https://github.com/alphagov/govuk_frontend_toolkit
+.button:hover, .button:visited:hover {
+font-family: inherit;
+-webkit-transition: all 0s;
+-moz-transition: all 0s;
+-ms-transition: all 0s;
+-o-transition: all 0s;
+transition: all 0.5s;
+width: 140px;
+display: inherit;
+margin-bottom: 2.2em;
+position: relative;
+text-align: center;
+z-index: 20;
+white-space: nowrap;
+line-height: 1em;
+color: white;
+background: black;
+border: 3px solid black !important;
+padding: 5px 0px 5px 0px;
+font-size: smaller;
+}
 
-$default-button-colour: darken($white, 10%);
-
-@mixin button($colour: $default-button-colour){
+@mixin button($colour: $default-button-colour)
+{
   // Colour
   background-color: $colour;
 
@@ -16,7 +56,7 @@ $default-button-colour: darken($white, 10%);
   text-decoration: none;
   @include border-radius(0);
   -webkit-appearance: none;
-  font-size: large;
+  font-size: medium;
 
 
   // Text
@@ -30,14 +70,17 @@ $default-button-colour: darken($white, 10%);
   &:visited{
     background-color: $colour;
   }
-  &:hover,
+  &:hover{
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    transition: background-color 0.8s linear;
+  }
   &:focus {
     color:white;
     background-color: black;
     text-decoration: none;
     transition: background-color 0.8s linear;
-    
-
   }
   &:active {
     top: 2px;
@@ -57,31 +100,9 @@ $default-button-colour: darken($white, 10%);
       top: 0;
       @include box-shadow(0 2px 0 darken($colour, 15%));
       @include ie-lte(8) {
-        border-bottom: 2px solid darken($colour, 15%);
-      }
-    }
-  }
+        border-bottom: 2px solid darken($colour, 15%);}
 
-  // Set text colour depending on background colour
-  @if lightness($colour) < 50% {
-    color: $white;
-    &:link,
-    &:hover,
-    &:focus,
-    &:visited{
-      color: $white;
-    }
-  } @else {
-    color: $text-colour;
-    &:link,
-    &:hover,
-    &:focus,
-    &:visited{
-      color: $text-colour;
-    }
-  }
-
-  // making the click target bigger than the button
+          // making the click target bigger than the button
   // (and fill the space made when the button moves)
   &:before {
     content: "";
@@ -123,10 +144,7 @@ $default-button-colour: darken($white, 10%);
 
     &[type=submit].button {
       filter: none;
+      }
     }
-  }
-}
-
-a.button {
-  @include button;
+ } }
 }
