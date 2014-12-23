@@ -5,6 +5,7 @@
     @include font(50px, 55px, 75px, 85px, 100px, 115px);
 }
 
-.about {
-    @include font(30px);
+.wrapper {
+    @include font(18px, 25px, 30px, 45px, 40px, 55px);
+    margin-bottom: 1rem;
 }
