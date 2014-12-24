@@ -215,7 +215,7 @@
 			var windowsWidth = $(window).width();
 			windowsHeight = $(window).height();
 
-			//text and images resizing
+			//text and Images resizing
 			if (options.resize) {
 				resizeMe(windowsHeight, windowsWidth);
 			}
@@ -420,7 +420,7 @@
 				if(document.readyState === "complete"){
 					createSlimScrollingHandler();
 				}
-				//after DOM and images are loaded
+				//after DOM and Images are loaded
 				$(window).on('load', createSlimScrollingHandler);
 			}else{
 				$.isFunction( options.afterRender ) && options.afterRender.call( this);
@@ -1267,7 +1267,7 @@
 		}
 
 		/**
-		 * Resizing of the font size depending on the window size as well as some of the images on the site.
+		 * Resizing of the font size depending on the window size as well as some of the Images on the site.
 		 */
 		function resizeMe(displayHeight, displayWidth) {
 			//Standard dimensions, for which the body font size is correct
