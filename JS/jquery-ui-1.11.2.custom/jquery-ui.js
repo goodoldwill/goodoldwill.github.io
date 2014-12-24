@@ -1074,7 +1074,7 @@ function getOffsets( offsets, width, height ) {
 	];
 }
 
-function parseCss( element, property ) {
+function parsecss( element, property ) {
 	return parseInt( $.css( element, property ), 10 ) || 0;
 }
 
@@ -1249,10 +1249,10 @@ $.fn.position = function( options ) {
 			elem = $( this ),
 			elemWidth = elem.outerWidth(),
 			elemHeight = elem.outerHeight(),
-			marginLeft = parseCss( this, "marginLeft" ),
-			marginTop = parseCss( this, "marginTop" ),
-			collisionWidth = elemWidth + marginLeft + parseCss( this, "marginRight" ) + scrollInfo.width,
-			collisionHeight = elemHeight + marginTop + parseCss( this, "marginBottom" ) + scrollInfo.height,
+			marginLeft = parsecss( this, "marginLeft" ),
+			marginTop = parsecss( this, "marginTop" ),
+			collisionWidth = elemWidth + marginLeft + parsecss( this, "marginRight" ) + scrollInfo.width,
+			collisionHeight = elemHeight + marginTop + parsecss( this, "marginBottom" ) + scrollInfo.height,
 			position = $.extend( {}, basePosition ),
 			myOffset = getOffsets( offsets.my, elem.outerWidth(), elem.outerHeight() );
 
@@ -2276,10 +2276,10 @@ $.ui.plugin.add( "draggable", "connectToSortable", {
 				draggable.cancelHelperRemoval = true;
 				sortable.cancelHelperRemoval = false;
 
-				// Use _storedCSS To restore properties in the sortable,
+				// Use _storedcss To restore properties in the sortable,
 				// as this also handles revert (#9675) since the draggable
 				// may have modified them in unexpected ways (#8809)
-				sortable._storedCSS = {
+				sortable._storedcss = {
 					position: sortable.placeholder.css( "position" ),
 					top: sortable.placeholder.css( "top" ),
 					left: sortable.placeholder.css( "left" )
@@ -4957,7 +4957,7 @@ var sortable = $.widget("ui.sortable", $.ui.mouse, {
 			this._mouseUp({ target: null });
 
 			if(this.options.helper === "original") {
-				this.currentItem.css(this._storedCSS).removeClass("ui-sortable-helper");
+				this.currentItem.css(this._storedcss).removeClass("ui-sortable-helper");
 			} else {
 				this.currentItem.show();
 			}
@@ -5425,7 +5425,7 @@ var sortable = $.widget("ui.sortable", $.ui.mouse, {
 		}
 
 		if(helper[0] === this.currentItem[0]) {
-			this._storedCSS = { width: this.currentItem[0].style.width, height: this.currentItem[0].style.height, position: this.currentItem.css("position"), top: this.currentItem.css("top"), left: this.currentItem.css("left") };
+			this._storedcss = { width: this.currentItem[0].style.width, height: this.currentItem[0].style.height, position: this.currentItem.css("position"), top: this.currentItem.css("top"), left: this.currentItem.css("left") };
 		}
 
 		if(!helper[0].style.width || o.forceHelperSize) {
@@ -5677,12 +5677,12 @@ var sortable = $.widget("ui.sortable", $.ui.mouse, {
 		this._noFinalSort = null;
 
 		if(this.helper[0] === this.currentItem[0]) {
-			for(i in this._storedCSS) {
-				if(this._storedCSS[i] === "auto" || this._storedCSS[i] === "static") {
-					this._storedCSS[i] = "";
+			for(i in this._storedcss) {
+				if(this._storedcss[i] === "auto" || this._storedcss[i] === "static") {
+					this._storedcss[i] = "";
 				}
 			}
-			this.currentItem.css(this._storedCSS).removeClass("ui-sortable-helper");
+			this.currentItem.css(this._storedcss).removeClass("ui-sortable-helper");
 		} else {
 			this.currentItem.show();
 		}
@@ -8102,7 +8102,7 @@ function Datepicker() {
 		maxDate: null, // The latest selectable date, or null for no limit
 		duration: "fast", // Duration of display/closure
 		beforeShowDay: null, // Function that takes a date and returns an array with
-			// [0] = true if selectable, false if not, [1] = custom CSS class name(s) or "",
+			// [0] = true if selectable, false if not, [1] = custom css class name(s) or "",
 			// [2] = cell title (optional), e.g. $.datepicker.noWeekends
 		beforeShow: null, // Function that takes an input field and
 			// returns a set of custom settings for the date picker
@@ -9049,7 +9049,7 @@ $.extend(Datepicker.prototype, {
 
 	/* Set as beforeShowDay function to prevent selection of weekends.
 	 * @param  date  Date - the date to customise
-	 * @return [boolean, string] - is this date selectable?, what is its CSS class?
+	 * @return [boolean, string] - is this date selectable?, what is its css class?
 	 */
 	noWeekends: function(date) {
 		var day = date.getDay();
@@ -10138,7 +10138,7 @@ var dialog = $.widget( "ui.dialog", {
 	},
 
 	_create: function() {
-		this.originalCss = {
+		this.originalcss = {
 			display: this.element[ 0 ].style.display,
 			width: this.element[ 0 ].style.width,
 			minHeight: this.element[ 0 ].style.minHeight,
@@ -10198,7 +10198,7 @@ var dialog = $.widget( "ui.dialog", {
 		this.element
 			.removeUniqueId()
 			.removeClass( "ui-dialog-content ui-widget-content" )
-			.css( this.originalCss )
+			.css( this.originalcss )
 			// Without detaching first, the following becomes really slow
 			.detach();
 

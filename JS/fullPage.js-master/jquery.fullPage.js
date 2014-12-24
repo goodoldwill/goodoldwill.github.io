@@ -400,7 +400,7 @@
 				silentLandscapeScroll(activeSlide);
 			}
 
-			//fixed elements need to be moved out of the plugin container due to problems with CSS3.
+			//fixed elements need to be moved out of the plugin container due to problems with css3.
 			if(options.fixedElements && options.css3){
 				$(options.fixedElements).appendTo('body');
 			}
@@ -411,7 +411,7 @@
 				nav.find('li').eq($('.fp-section.active').index('.fp-section')).find('a').addClass('active');
 			}
 
-			//moving the menu outside the main container if it is inside (avoid problems with fixed positions when using CSS3 tranforms)
+			//moving the menu outside the main container if it is inside (avoid problems with fixed positions when using css3 tranforms)
 			if(options.menu && options.css3 && $(options.menu).closest('.fullpage-wrapper').length){
 				$(options.menu).appendTo('body');
 			}
@@ -863,10 +863,10 @@
 		}
 
 		/**
-		* Performs the movement (by CSS3 or by jQuery)
+		* Performs the movement (by css3 or by jQuery)
 		*/
 		function performMovement(v){
-			// using CSS3 translate functionality
+			// using css3 translate functionality
 			if (options.css3 && options.autoScrolling && !options.scrollBar) {
 
 				var translate3d = 'translate3d(0px, -' + v.dtop + 'px, 0px)';
@@ -1222,7 +1222,7 @@
 
 	    /**
 	    * Checks if the site needs to get responsive and disables autoScrolling if so.
-	    * A class `fp-responsive` is added to the plugin's container in case the user wants to use it for his own responsive CSS.
+	    * A class `fp-responsive` is added to the plugin's container in case the user wants to use it for his own responsive css.
 	    */
 	    function responsive(){
 	    	if(options.responsive){
@@ -1559,7 +1559,7 @@
 		* Sets a class for the body of the page depending on the active section / slide
 		*/
 		function setBodyClass(text){
-			//changing slash for dash to make it a valid CSS style
+			//changing slash for dash to make it a valid css style
 			text = text.replace('/', '-').replace('#','');
 
 			//removing previous anchor classes
