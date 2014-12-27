@@ -266,22 +266,21 @@ h3, h4, h5, h6 {
 /* --- Link styles --- */
 a {
   color: inherit;
-  border-bottom: 2px solid;
   display: inline;
   text-decoration: none;
   -webkit-transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out;
   -moz-transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out;
   -o-transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out; }
-  @media (min-width: 641px) {
-    a {
-      border-bottom: 4px solid; } }
 
 a:hover {
-  color: peachpuff; }
+  color: peachpuff;
+  border-bottom: 2px solid;
+  transition: color 0.5s ease; }
 
 a:active {
-  color: peachpuff; }
+  color: peachpuff;
+  border-bottom: 2px solid; }
 
 .no-link, a.img, a.video {
   border-bottom: 0; }
