@@ -276,12 +276,10 @@ a {
 
 a:hover {
   color: peachpuff;
-  border-bottom: 2px solid;
   transition: color 0.5s ease; }
 
 a:active {
-  color: peachpuff;
-  border-bottom: 2px solid; }
+  color: peachpuff; }
 
 .no-link, a.img, a.video {
   border-bottom: 0; }
