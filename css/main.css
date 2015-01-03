@@ -204,7 +204,8 @@ p, ul, ol, h1, h2, h3, h4 {
 p, ul, ol {
   padding-top: 10px;
   padding-bottom: 20px;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+  width: 90%; }
 
 h1 {
   font-family: 'fugue_regular', "Helvetica Neue", Helvetica, sans-serif;
