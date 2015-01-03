@@ -262,7 +262,8 @@ h3, h4, h5, h6 {
       line-height: 1.5; } }
 
 .wrapper {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  width: 90%; }
 
 #footer {
   border-top: 2px solid; }
