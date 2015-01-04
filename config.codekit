@@ -347,13 +347,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/composed\/Others.003.png": {
+	"\/Images\/composed\/otherp.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 487705,
-		"inputAbbreviatedPath": "\/Images\/composed\/Others.003.png",
-		"outputAbbreviatedPath": "\/Images\/composed\/Others.003.png",
+		"inputAbbreviatedPath": "\/Images\/composed\/otherp.png",
+		"outputAbbreviatedPath": "\/Images\/composed\/otherp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -490,13 +490,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/GDS\/bigscreen\/bigscreen.jpg": {
+	"\/Images\/GDS\/bigscreen.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 107235,
-		"inputAbbreviatedPath": "\/Images\/GDS\/bigscreen\/bigscreen.jpg",
-		"outputAbbreviatedPath": "\/Images\/GDS\/bigscreen\/bigscreen.jpg",
+		"inputAbbreviatedPath": "\/Images\/GDS\/bigscreen.jpg",
+		"outputAbbreviatedPath": "\/Images\/GDS\/bigscreen.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -523,6 +523,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Images\/GDS\/dashboardsforuserjourneys\/Learn-to-drive-service-steps-620x205 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81011,
+		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Learn-to-drive-service-steps-620x205 2.png",
+		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Learn-to-drive-service-steps-620x205 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/dashboardsforuserjourneys\/Learn-to-drive-service-steps-620x205.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81011,
+		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Learn-to-drive-service-steps-620x205.png",
+		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Learn-to-drive-service-steps-620x205.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/GDS\/dashboardsforuserjourneys\/learntod.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -530,6 +552,17 @@
 		"initialSize": 81011,
 		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/learntod.png",
 		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/learntod.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/dashboardsforuserjourneys\/Service dashboard v6 Learn to drive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136543,
+		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Service dashboard v6 Learn to drive.png",
+		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Service dashboard v6 Learn to drive.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
