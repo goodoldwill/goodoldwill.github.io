@@ -242,7 +242,7 @@ h2 {
       font-size: 50px;
       line-height: 0.9; } }
 
-h3, h4, h5, h6 {
+h3, h5, h6 {
   font-family: 'fugue_regular', "Helvetica Neue", Helvetica, sans-serif;
   font-size: 24px;
   line-height: 1.4583333333;
@@ -253,11 +253,29 @@ h3, h4, h5, h6 {
   border: 5px, 5px, 5px, 5px;
   text-decoration: underline; }
   @media (min-width: 641px) {
-    h3, h4, h5, h6 {
+    h3, h5, h6 {
       font-size: 27px;
       line-height: 1.4814814815; } }
   @media (min-width: 769px) {
-    h3, h4, h5, h6 {
+    h3, h5, h6 {
+      font-size: 30px;
+      line-height: 1.5; } }
+
+h4 {
+  font-family: 'fugue_regular', "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.4583333333;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  border-style: thin solid black;
+  border: 5px, 5px, 5px, 5px; }
+  @media (min-width: 641px) {
+    h4 {
+      font-size: 27px;
+      line-height: 1.4814814815; } }
+  @media (min-width: 769px) {
+    h4 {
       font-size: 30px;
       line-height: 1.5; } }
 
