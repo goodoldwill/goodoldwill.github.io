@@ -281,7 +281,7 @@ h4 {
 
 .wrapper {
   margin-bottom: 1rem;
-  width: 90%; }
+  width: 70%; }
 
 #footer {
   border-top: 2px solid; }
@@ -383,7 +383,8 @@ a:active {
       line-height: 1.375; } }
 
 body {
-  margin: 50px; }
+  margin-left: 5%;
+  margin-top: 5%; }
 
 img {
   width: 70%;
