@@ -1,45 +1,45 @@
-.button{
-font-family: inherit;
--webkit-transition: all 0s;
--moz-transition: all 0s;
--ms-transition: all 0s;
--o-transition: all 0s;
-transition: all 0.5s;
-width: 140px;
-display: inherit;
-margin-bottom: 1.2em;
-position: relative;
-text-align: center;
-z-index: 20;
-white-space: nowrap;
-line-height: 1em;
-color: black;
-background: transparent;
-border: 3px solid black !important;
-padding: 5px 0px 5px 0px;
-font-size: smaller;
+p{
+  font-family: inherit;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0.5s;
+  width: 140px;
+  display: inherit;
+  margin-bottom: 1.2em;
+  position: relative;
+  text-align: center;
+  z-index: 20;
+  white-space: nowrap;
+  line-height: 1em;
+  color: black;
+  background: transparent;
+  border: 3px solid black !important;
+  padding: 5px 0px 5px 0px;
+  font-size: smaller;
 }
 
 .button:hover, .button:visited:hover {
-font-family: inherit;
--webkit-transition: all 0s;
--moz-transition: all 0s;
--ms-transition: all 0s;
--o-transition: all 0s;
-transition: all 0.5s;
-width: 140px;
-display: inherit;
-margin-bottom: 1.2em;
-position: relative;
-text-align: center;
-z-index: 20;
-white-space: nowrap;
-line-height: 1em;
-color: white;
-background: black;
-border: 3px solid black !important;
-padding: 5px 0px 5px 0px;
-font-size: smaller;
+  font-family: inherit;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0.5s;
+  width: 140px;
+  display: inherit;
+  margin-bottom: 1.2em;
+  position: relative;
+  text-align: center;
+  z-index: 20;
+  white-space: nowrap;
+  line-height: 1em;
+  color: white;
+  background: black;
+  border: 3px solid black !important;
+  padding: 5px 0px 5px 0px;
+  font-size: smaller;
 }
 
 @mixin button($colour: $default-button-colour)
@@ -144,7 +144,7 @@ font-size: smaller;
 
     &[type=submit].button {
       filter: none;
-      }
     }
- } }
+  }
+} }
 }

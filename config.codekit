@@ -3,7 +3,7 @@
 "creatorBuild": "18270",
 "files": {
 	"\/css\/_buttons.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -578,24 +578,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/GDS\/dashboardsforuserjourneys\/Step1.png": {
+	"\/Images\/GDS\/dashboardsforuserjourneys\/step1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 97715,
-		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Step1.png",
-		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Step1.png",
+		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/step1.png",
+		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/step1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/GDS\/dashboardsforuserjourneys\/Step2.png": {
+	"\/Images\/GDS\/dashboardsforuserjourneys\/step2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 137072,
-		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Step2.png",
-		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/Step2.png",
+		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/step2.png",
+		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/step2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -607,6 +607,83 @@
 		"initialSize": 126425,
 		"inputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/step3.png",
 		"outputAbbreviatedPath": "\/Images\/GDS\/dashboardsforuserjourneys\/step3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/henry\/01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.35361e+06,
+		"inputAbbreviatedPath": "\/Images\/GDS\/henry\/01.jpg",
+		"outputAbbreviatedPath": "\/Images\/GDS\/henry\/01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/henry\/02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.12917e+06,
+		"inputAbbreviatedPath": "\/Images\/GDS\/henry\/02.jpg",
+		"outputAbbreviatedPath": "\/Images\/GDS\/henry\/02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/henry\/03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 418853,
+		"inputAbbreviatedPath": "\/Images\/GDS\/henry\/03.jpg",
+		"outputAbbreviatedPath": "\/Images\/GDS\/henry\/03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/henry\/04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.22223e+06,
+		"inputAbbreviatedPath": "\/Images\/GDS\/henry\/04.jpg",
+		"outputAbbreviatedPath": "\/Images\/GDS\/henry\/04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/henry\/05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.32683e+06,
+		"inputAbbreviatedPath": "\/Images\/GDS\/henry\/05.jpg",
+		"outputAbbreviatedPath": "\/Images\/GDS\/henry\/05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/henry\/06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.25732e+06,
+		"inputAbbreviatedPath": "\/Images\/GDS\/henry\/06.jpg",
+		"outputAbbreviatedPath": "\/Images\/GDS\/henry\/06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/GDS\/henry\/07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.71523e+06,
+		"inputAbbreviatedPath": "\/Images\/GDS\/henry\/07.jpg",
+		"outputAbbreviatedPath": "\/Images\/GDS\/henry\/07.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
